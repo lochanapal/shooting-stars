@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Adventure Trip Planning Platform</title>
+  <!-- Include CSS stylesheets and JavaScript files -->
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Adventure Trip Planning Platform</h1>
+  </header>
+
+  <!-- Main content area -->
+  <main>
+    <!-- Trip search form -->
+    <section id="search">
+      <h2>Find Your Adventure Trip</h2>
+      <form id="trip-form">
+        <!-- Input fields for destination, dates, etc. -->
+        <input type="text" id="destination" placeholder="Destination">
+        <input type="date" id="start-date">
+        <input type="date" id="end-date">
+        <!-- Additional input fields -->
+        <!-- ... -->
+        <button type="submit">Search</button>
+      </form>
+    </section>
+
+    <!-- Display search results -->
+    <section id="results">
+      <!-- Results will be populated dynamically using JavaScript -->
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2023 Your Adventure Platform</p>
+  </footer>
+</body>
+</html>
 
